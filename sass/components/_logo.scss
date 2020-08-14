@@ -1,0 +1,15 @@
+.logo {
+  @include logo();
+  // font-family: $secondary-font;
+  // font-weight: 700;
+  // font-size: 26px;
+  // line-height: 1.192;
+  // color: #000000;
+  margin-right: 85px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
+  &-accent {
+    color: $accent-color;
+  }
+}
